@@ -42,7 +42,7 @@ while True:
                 print(f"{i}. Nombre: {producto[0]}, Categoría: {producto[1]}, Precio: ${producto[2]}")
                 i += 1
     
-    # Opción 3: Buscar producto
+    # Opción 3: Buscar productos
     elif opcion == "3":
         busqueda = input("Ingrese el nombre a buscar: ")
         encontrados = []
@@ -59,7 +59,7 @@ while True:
                 print(f"{i}. Nombre: {producto[0]}, Categoría: {producto[1]}, Precio: ${producto[2]}")
                 i += 1
     
-    # Opción 4: Eliminar producto
+    # Opción 4: Eliminar productos
     elif opcion == "4":
         if len(productos) == 0:
             print("No hay productos para eliminar")
